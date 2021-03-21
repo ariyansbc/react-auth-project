@@ -1,0 +1,15 @@
+.destination {
+    margin-top: 2em;
+ 
+}
+.map-container {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+}
+.map-search-area {
+
+}
+.map-area {
+    margin-left: 30px;
+}

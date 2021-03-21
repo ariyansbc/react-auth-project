@@ -1,0 +1,31 @@
+
+nav {
+    width: 1200px;
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+}
+.logo {
+    width: 30%;
+    line-height: 50px; 
+}
+.logo a {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 700;
+}
+.menu-area {
+    width: 50%;
+}
+.menu {
+   
+}
+.menu li{
+ display: inline-block;
+ margin-left:30px;
+ font-size: 25px;
+}
+.menu li a {
+    font-weight: 500;
+    text-decoration: none;
+}

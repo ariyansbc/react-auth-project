@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "vehicle": "Bike",
+        "pickFrom": "mirpur",
+        "pickTo": "dhanmondi",
+        "rent": 76,
+        "image": "https://media.zigcdn.com/media/model/2020/Jan/hero-hf-deluxe-bs6-right-side-view_270x180.jpg"
+    },
+    {
+        "id": 2,
+        "vehicle": "Car",
+        "pickFrom": "mirpur",
+        "pickTo": "dhanmondi",
+        "rent": 95,
+        "image": "https://cdn.luxe.digital/media/2020/12/16175821/most-expensive-cars-2021-Maserati-MC20-luxe-digital%402x.jpg"
+    },
+    {
+        "id": 3,
+        "vehicle": "bus",
+        "pickFrom": "dhaka",
+        "pickTo": "cumilla",
+        "rent": 46,
+        "image": "https://www.sustainable-bus.com/wp-content/uploads/2019/12/scania-bus4.jpg"
+    },
+    {
+        "id": 4,
+        "vehicle": "train",
+        "pickFrom": "dhaka",
+        "pickTo": "sylhet",
+        "rent": 31,
+        "image": "https://c.files.bbci.co.uk/F76E/production/_115224336_mediaitem115224335.jpg"
+    }
+]
