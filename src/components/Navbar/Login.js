@@ -1,4 +1,4 @@
-import React, { useContext, createContext,useState } from 'react';
+import React, { useContext, useState } from 'react';
 import "./Login.css"
 import firebase from "firebase/app";
 import "firebase/auth";
@@ -13,7 +13,7 @@ if (!firebase.apps.length) {
 const Login = () => {
 
     //state for handle new user
-    const [newUser, setNewUser] = useState(false)
+    const [newUser, setNewUser] = useState(false);
 
     {/*  main state */}
     const [user, setUser] = useState({
@@ -51,10 +51,10 @@ const Login = () => {
                 // console.log("user", user);
                 console.log("email",email);
             }).catch((error) => {
-                var errorCode = error.code;
+    
                 var errorMessage = error.message;
                 var email = error.email;
-                var credential = error.credential;
+                
             });
     }
 
@@ -84,8 +84,8 @@ const Login = () => {
         if(newUser && user.email && user.password) {
             firebase.auth().createUserWithEmailAndPassword(user.email, user.password)
             .then((res) => {
-                const {email} = res.user;
                 const newUser = {...user};
+                const {email} = res.user;
                 newUser.error = '';
                 newUser.success = true;
                 newUser.email = email;
