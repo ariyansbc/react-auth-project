@@ -1,7 +1,6 @@
 .login{
     width: 450px;
-    margin: 60px auto;
-    
+    margin: 60px auto; 
 }
 input[type="checkbox"] {
     cursor: pointer;

@@ -9,14 +9,11 @@ const Destination = () => {
         e.preventDefault();
 
     }
-
-
-
     return (
         <div className="destination">
             <div className="map-container">
                 <div className="map-search-area">
-                    <form onSubmit={handleSearchSubmit} action="">
+                    <form onSubmit={handleSearchSubmit}>
                         <p>PickFrom</p>
                         <input type="text" placeholder="mirpur 1"/>
                         <br/>
@@ -28,11 +25,9 @@ const Destination = () => {
 
                 </div>
                 <div className="map-area">
-                    <img src={mapImg} alt="" />
-                </div>
-
+                    <img src={mapImg} alt="map" />
+               </div>
             </div>
-
         </div>
     );
 };
