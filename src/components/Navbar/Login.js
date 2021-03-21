@@ -52,8 +52,9 @@ const Login = () => {
                 console.log("email",email);
             }).catch((error) => {
     
-                var errorMessage = error.message;
-                var email = error.email;
+                // var errorMessage = error.message;
+                // var email = error.email;
+                
                 
             });
     }
@@ -80,7 +81,7 @@ const Login = () => {
 
     //custom form handle code
     const handleFormSubmit = (e) => {
-        console.log(user.name);
+        // console.log(user.name);
         if(newUser && user.email && user.password) {
             firebase.auth().createUserWithEmailAndPassword(user.email, user.password)
             .then((res) => {
@@ -92,7 +93,7 @@ const Login = () => {
                 setUser(newUser);
                 setLoggedInUser(newUser);
                 history.replace(from);
-                var user = res.user;
+                // var user = res.user;
                 // console.log("res",res);
                 // console.log("user email",user);
                 // console.log("email",email); 

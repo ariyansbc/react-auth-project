@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './Vehicle.css'
 
 const Vehicles = (props) => {
-    const { id, vehicle, pickFrom, pickTo, image, rent } = props.vehicle
+    const { vehicle, image } = props.vehicle
     return (
         <Link to="/destination">
           <div className="vehicle-box">
